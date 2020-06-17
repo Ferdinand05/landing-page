@@ -61,7 +61,7 @@
 
 
 
-/*? Desktop version */
+/*! Desktop version */
 @media (min-width: 992px){
     
     .navbar-brand, .nav-link {
@@ -97,8 +97,10 @@
         text-align: left;
     }
 
-    .workingspace .gallery{
+    .workingspace a.gallery{
         text-align: left;
+        display: inline-block;
+        margin-left: -350px;
     }
 
 }
